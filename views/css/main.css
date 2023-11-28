@@ -1,0 +1,58 @@
+/*body,
+ table,
+    thead,
+    tr,
+    tbody,
+    th,
+    td {
+        text-align: center;
+    }*/
+body{
+	text-align: center !important;
+    background-image: url('https://imgs.search.brave.com/kRN8Hq1CQBUGa8ZOJq8SzzcshYCsn6Lh0g9G-8dE7-4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb2xv/cmxpYi5jb20vd3Av/d3AtY29udGVudC91/cGxvYWRzL3NpdGVz/LzIvZnJlZS1ib290/c3RyYXAtZWNvbW1l/cmNlLXRlbXBsYXRl/cy5wbmc');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+	margin-top: 20px;
+	font-size: 30px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: large;
+}
+input{
+	text-align: center;
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+/* contact us */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container #form input,.container #form textarea{
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+}
+.container #form input{
+    height: 30px;
+
+}
+.container #form .btn button{
+    width: 50px;
+    padding: 10px ;
+    margin-top: 20p;
+    cursor: pointer;
+}
