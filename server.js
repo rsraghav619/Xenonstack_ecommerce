@@ -7,8 +7,9 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
-
-mongoose.connect('mongodb+srv://s08256899:1234@cluster0.u0ntfiw.mongodb.net/', {
+const username=process.env.MONGODB_USERNAME;
+const password=process.env.MONGODB_PASSWORD;
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.u0ntfiw.mongodb.net/`, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {
